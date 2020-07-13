@@ -6,27 +6,30 @@
     font-size: 20px;
     color: #3C3B3A;
 }
+
 /* ----- MOBILE VIEWPORT ----- */
 /* Logo and Navigation Bar Settings */
 .topnav {
     background-color: #3C3B3A;
     text-align: center;
-    padding: 11px 0 11px 0;
+    padding: 5px 0 20px 0;
 }
 
 #logo {
-    width: 88px;
+    width: 120px;
     margin: 0;
 }
+
 .mainmenu nav ul li {
     display: block;
 }
+
 .mainmenu nav ul li a {
     display: block;
     text-align: center;
     list-style-type: none;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     color: white;
     padding: 11px 0 11px 0;
 }
@@ -39,13 +42,15 @@ nav ul li a.active {
 /* HOME PAGE */
 /* Paragraph 1 Setting */
 .p1 {
-    padding: 36px;
+    padding: 0 36px 20px 36px;
 }
 .p1 h1 {
-    font-size: 40px;
+    padding-top: 50px;
+    font-size: 50px;
 }
 .p1 p {
-    line-height: 35px;
+    font-size: 24px;
+    line-height: 50px;
     padding: 19px 0 0 0;
 }
 
@@ -66,7 +71,7 @@ nav ul li a.active {
 }
 
 .p1img p {
-    font-size: 17px;
+    font-size: 20px;
     color: #26A682;
 }
 
@@ -110,20 +115,20 @@ nav ul li a.active {
 
 .p2 h1, .p3 h1 {
     font-style: italic;
-    font-size: 32px;
     font-weight: bold;
+    font-size: 40px;
     margin-top: 30px;
 }
 
 .p2 h3, .p3 h3 {
     color: #26A682;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 30px;
     padding: 10px 0 10px 0;
 }
 
 .p2 p, .p3 p {
-    line-height: 35px;
+    line-height: 50px;
     padding: 0 0 20px 0;
 }
 
@@ -152,7 +157,7 @@ nav ul li a.active {
     text-align: center;
     padding: 10px 0 5px 0;
     color: white;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bolder;
 }
 .simon {
@@ -161,7 +166,7 @@ nav ul li a.active {
     text-align: center;
 }
 .simon img {
-    height: 267px;
+    height: 220px;
     width: auto;
     border-radius: 50%;
     border: solid 5px #F2F2F2;
@@ -172,29 +177,31 @@ nav ul li a.active {
 .president p {
     padding: 20px 37px 25px 37px;
     color: white;
-    line-height: 35px;
+    line-height: 45px;
+    font-size: 20px;
     margin: auto;
 }
 
 /* ABOUT PAGE */
-/* Paragraph and Images Setting */
-.p4, .p5, .break, .competitive, .newyearnewme, .indoorclimbing {
-    padding: 20px 36px 20px 36px;
-}
-
 /* Hide Image in Mobile View */
 .bowling img, .bar img, .fitness img, .climbing img {
     display: none;
 }
 
+/* Paragraph and Images Setting */
+.p4, .p5, .break, .competitive, .newyearnewme, .indoorclimbing {
+    padding: 20px 40px 20px 40px;
+}
+
 .p4 h1 {
-    font-size: 40px;
+    font-size: 50px;
     color: #3C3B3A;
 }
 
-.p4 p, .p5 p, .p6 p {
-    line-height: 35px;
-    padding: 20px 0 10px 0;
+.p4 p, .p5 p, .p6 p, .break p, .competitive p, .fitnesstext p, .indoorclimbing p {
+    font-size: 20px;
+    line-height: 50px;
+    padding: 20px 0 20px 0;
 }
 
 .p4 .construction {
@@ -206,7 +213,7 @@ nav ul li a.active {
 }
 
 .p5 h2 {
-    font-size: 32px;
+    font-size: 40px;
     color: #3C3B3A;
     font-style: italic;
     font-weight: bold;
@@ -225,27 +232,26 @@ nav ul li a.active {
     color: white;
     top: 50%;
     left: 50%;
-    font-size: 50px;   
+    font-size: 55px;   
     transform: translate(-50%, -50%); 
     font-weight: bold;
 }
 
 .break h1, .competitive h1, .newyearnewme h1, .indoorclimbing h1 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     color: #3C3B3A;
+    margin-top: 15px;
 }
 
 .break h3, .competitive h3, .newyearnewme h3, .indoorclimbing h3 {
     color: #26A682;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 30px;
     padding: 10px 0 0 0;
 }
 
-.break p, .competitive p, .newyearnewme p, .indoorclimbing p {
-    line-height: 35px;
-}
+
 
 /* Section Background Color Setting */
 .competitive, .indoorclimbing {
@@ -254,28 +260,23 @@ nav ul li a.active {
 
 .subscribe {
     background-color: #3C3B3A;
-    padding: 24px 36px;
+    padding: 30px 40px;
     text-align: center;
 }
 
 .subscribe p {
     color: white;
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 /* Subscribe Button Setting */
 .button3 {
-    padding: 20px 70px 0px 70px;
-    text-align: center;
-}
-
-.button3 {
-    display: block;
-    border-radius: 40px;
     padding: 10px;
+    border-radius: 40px;
     background-color: #26A682;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     margin-top: 20px;
 }
@@ -287,24 +288,27 @@ nav ul li a.active {
 }
 
 .special h1 {
-    font-size: 56px;
+    font-size: 65px;
     font-weight: bolder;
 }
 
 .special img {
-    padding: 44px 0 0 0;
+    padding: 50px 0 0 0;
 }
 
 /* CONTACT PAGE */
 .p7 { 
     padding: 36px 36px 10px 36px;
 }
+
 .p7 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
 }
+
 .p7 p {
-    line-height: 35px;
+    font-size: 24px;
+    line-height: 50px;
     padding: 20px 0 10px 0;
 }
 
@@ -319,10 +323,11 @@ nav ul li a.active {
     padding: 36px;
  }
 
- form {
-     background-color: #26A682;
-     border-radius: 25px;
-     padding: 15px;
+form {
+    box-shadow: 10px 7px rgba(18, 74, 58, 0.25);
+    background-color: #26A682;
+    border-radius: 25px;
+    padding: 15px;
  }
 
 form p {
@@ -379,6 +384,10 @@ form button {
     box-shadow: 2px 7px rgba(18, 74, 58, 0.25);
     margin-top: 10px;
     margin-bottom: 25px;
+}
+
+input.fullname, input.student, input.email, textarea#message {
+    margin-top: 20px;
 }
 
 .p8 {
@@ -452,8 +461,13 @@ form button {
 
 /* -----TABLET VIEWPORT 600px to 960px----- */
 @media(min-width: 600px) {
+    #logo {
+        width: 90px;
+        padding: 0;
+    }
+
     .topnav{
-        padding: 10px 80px 10px 80px;
+        padding: 0 80px 0 80px;
         display: grid;
         grid-template-columns: 50% 50%;
     }
@@ -465,8 +479,10 @@ form button {
     }
    
     .mainmenu nav ul li a {
+        font-size: 20px;
         display:block;
-        padding: 20px;
+        margin: 0 10px 0 10px;
+        padding-top: 30px;
     }
 
     /* HOME */
@@ -481,7 +497,7 @@ form button {
         padding: 19px 0 0 0;
         font-size: 24px;
     }
-
+    
     /* Icon Setting */
     .p1img {
         text-align: center;
@@ -540,7 +556,8 @@ form button {
     }
 
     .p2 p, .p3 p {
-        font-size: 24px;
+        font-size: 20px;
+        line-height: 40px;
     }
 
     .button2 p {
@@ -556,7 +573,9 @@ form button {
     }
 
     .president p {
+        font-size: 24px;
         margin: auto;
+        padding: 0;
     }
 
     .simon img {
@@ -564,20 +583,34 @@ form button {
     }
 
     /* ABOUT PAGE */
+    .break .bartext p, .competitive .bowlingtext p, .newyearnewme .fitnesstext p, .indoorclimbing .climbingtext p {
+        font-size: 24px;
+        line-height: 50px;
+        padding: 20px 0 20px 0;
+    }
+
     .p4, .p5 {
         padding: 40px 80px 40px 80px;
     }
 
     .p4 h1 {
-        font-size: 72px;
+        font-size: 65px;
+        padding-bottom: 20px;
     }
 
     .p4 p {
+        padding-bottom: 10px;
+        line-height: 40px;
         font-size: 24px;
     }
 
     .p5 h2 {
         font-size: 40px;
+    }
+
+    .p5 p {
+        font-size: 18px;
+        line-height: 35px;
     }
 
     .break .bar img, .newyearnewme .fitness img, .competitive .bowling img, .indoorclimbing .climbing img {
@@ -593,6 +626,10 @@ form button {
 
     .break .bartext, .newyearnewme .fitnesstext {
         grid-column: 3;
+    }
+
+    .wrapper .break .bartext h1 {
+        margin-top: 0;
     }
 
     .competitive, .indoorclimbing {
@@ -669,7 +706,7 @@ form button {
         font-size: 40px;
         width: 220px;
         padding: 15px;
-        margin-left: 58%;
+        margin: auto;
     }
 
     .p8 {
@@ -696,18 +733,89 @@ form button {
 /* -----DESKTOP VIEWPORT 960px to 1920px----- */
 @media(min-width: 960px) {
     /* HOME PAGE */
-    .president {
-        padding: 10px, 10px;
+    /* Navgation Bar Setting */
+    #logo {
+        width: 80px;
+    }
+   
+    .mainmenu nav ul li a {
+        font-size: 16px;
+    }
+
+    .wrap2 {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    /* Discover Setting */
+    .discover {
+        padding: 0;
+    }
+
+    .discover img {
+        padding-top: 100px;
+        width: 80%;
+    }
+
+    .p1 {
+        padding-left: 80px;
+    }
+
+    .p1 h1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 60px;
+    }
+
+    .p1 p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .bowlingicon p, .climbingicon p, .fitnessicon p, .indooricon p {
+        font-size: 16px;
+    }
+
+    .button1 p {
+        font-size: 30px;
+    }
+
+    .wrap4 {
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        padding: 80px;
     }
 
-    .simon {
-        margin: auto;
+
+    .p2 p, .p3 p {
+        font-size: 16px;
+        line-height: 35px;
     }
 
-    .president p {
-        margin: auto;
+    .p3 h1 {
+        margin: 0;
+    }
+
+    .wrap3 .p2 {
+        margin-left: 40px;
+        padding: 0;
+    }
+
+    .button2 p {
+        font-size: 24px;
+    }
+
+    /* 'SA' Setting */
+    .simon h2 {
+        font-size: 20px;
+    }
+
+    .simon img {
+        height: 150px;
+    }
+
+    .satext p {
+        padding-top: 30px;
     }
 
     /* ABOUT PAGE */
@@ -717,9 +825,20 @@ form button {
         grid-template-rows: repeat(3,1fr);
     }
 
+    .p4 h1 {
+        font-size: 50px;
+    }
+
     .p4 .construction {
         grid-column: 2;
         grid-row: 1/ span 3;
+    }
+
+    .p4 p {
+        font-size: 18px;
+        line-height: 35px;
+        margin: auto;
+        padding: 0;
     }
 
     .p5 {
@@ -759,6 +878,66 @@ form button {
     }
     .bartext h3, .fitnesstext h3, .bowlingtext h3, .climbingtext h3 {
         font-size: 32px;
+    }
+
+    .break .bartext p, .competitive .bowlingtext p, .newyearnewme .fitnesstext p, .indoorclimbing .climbingtext p {
+        font-size: 18px;
+        line-height: 35px;
+        padding: 0;
+    }
+
+    .wrap6 {
+        padding-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .entertainment picture img {
+        padding: 0 0 0 80px;
+    }
+
+    /* CONTACT PAGE */
+    .wrap7 {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        margin-top: 150px;
+    }
+
+    .wrap7 .p7 {
+        padding:0 0 0 80px;
+    }
+
+    .p7 h1, .p8 h1 {
+        font-size: 70px;
+    }
+
+    .p7 p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    /* Location Setting */
+    .wrap8 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .map {
+        padding: 0 80px 0 0;
+    }
+
+    .p8 {
+        padding: 0 80px 0 80px;
+    }
+
+    .p8 h3 {
+        font-size: 35px;
+    }
+
+    .p8 p {
+        line-height: 16px;
     }
 
     /* Footer Button Setting */
