@@ -86,6 +86,11 @@ button {
     margin: auto;
 }
 
+button a {
+    color: black;
+    text-decoration: none;
+}
+
 .introduction, .designertext h2, .whatidotext {
     font-family: 'Cormorant Garamond';
 }
