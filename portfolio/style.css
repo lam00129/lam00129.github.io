@@ -1,0 +1,378 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+/* ----- MOBILE VIEW ----- */
+/* HOMEPAGE SETTING */
+.wrapper {
+    width: 100%;
+    font-family: 'Overpass', sans-serif;
+    margin: auto;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo img{
+    width: 145px; 
+    margin-top: 20px;
+}
+
+#page-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#page-nav ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 2.5rem;
+}
+
+#page-nav label{
+    display: block;
+    font-size: 2.2rem;
+    color: black;
+    width: 25px;
+    margin: auto;
+}
+
+#page-nav ul li{
+    border-top: 1px solid #BCA474;
+    padding: 0 55px;
+}
+
+#hamburger{
+    display: none;
+}
+
+#page-nav input:checked ~ ul{
+    display: inline-block;
+}
+
+.introduction, .designer, .whatidotext {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.hello img, .recentproject img, .designer img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.whatido img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.bytnl img {
+    display: block;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+.introduction, .designertext h2, .whatidotext {
+    font-family: 'Cormorant Garamond';
+}
+
+.designertext p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Overpass';
+}
+
+footer {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    text-align: center;
+    height: 80px;
+    padding: 1.5rem 0;
+}
+
+#facebook, #instagram, #twitter {
+    margin: 10px 20px;
+}
+
+/* WORK PAGE SETTING */
+#work-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#work-nav ul li {
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+#work-nav ul li a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #BCA474;
+    border-top: 1px solid #BCA474;
+    border-bottom: 1px solid #BCA474;
+}
+
+#work-nav ul li a.active{
+    background-color: #BCA474;
+    color: white;
+}
+
+.mywork img {
+    width: 100%;
+}
+
+/* Graphic */
+.graphic {
+    font-size: 18px;
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+}
+
+.graphic h2 {
+    font-family: 'Cormorant Garamond';
+    margin-top: 30px;
+    text-align: center;
+}
+
+.graphic1 img, .graphic2 img, .graphic3 img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Photography */
+.content {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.content h2 {
+    font-family: 'Cormorant Garamond';;
+}
+
+.photo{
+    width: 80%;
+    margin: auto;
+}
+.photo1 img, .photo2 img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* ABOUT PAGE SETTING */
+.profile img, .profiletext img {
+    width: 100%;
+}
+
+.profiletext h1 {
+    text-align: center;
+    font-family: 'Cormorant Garamond';
+}
+
+.profiletext {
+    font-size: 18px;
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+}
+
+/* CONTACT PAGE SETTING */
+.workwithmetext {
+    font-size: 18px;
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+}
+
+.workwithmetext h2 {
+    font-family: 'Cormorant Garamond';
+}
+
+.workwithme img {
+    width: 100%;
+}
+
+form {
+    padding-top: 20px;
+    margin: auto;
+    width: 80%;
+    font-family: 'Cormorant Garamond';
+    font-size: 1rem;
+}
+
+fieldset {
+    font-size: 24px;
+    border: 0;
+    padding:0;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    font-family: 'Overpass';
+    font-size: 1rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    padding: 1rem;
+    transition-duration: 0.3s;
+    color: black;
+    border: 2px #BCA474 solid; 
+    background-color: white;
+}
+
+button:hover {
+    background-color: #BCA474;
+    color: black;
+    border: 2px black solid;
+}
+
+
+/* ----- TABLET VIEW ----- */
+@media (min-width: 600px){
+    /* HOMEPAGE SETTING */
+    #page-nav label, #hamburger{
+        display: none;
+    }
+
+    #page-nav {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #page-nav ul{
+        display: block;
+    }
+
+    #page-nav ul li {
+        padding: 0 40px;
+        display: inline-block;
+        line-height: 70px;
+        border: none;
+    }
+
+    #page-nav ul li a.active {
+        color:  #BCA474;
+        text-decoration: underline #BCA474;
+    }
+
+    .designertext2 {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 47% 47%;
+        grid-gap: 6%;
+    }
+
+    /* WORK PAGE SETTING */
+    /* Graphic */
+
+    /* Photography */
+    .photo1 img, .photo2 img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    /* ABOUT PAGE SETTING */
+    .profiletext2 {
+        display: grid;
+        grid-template-columns: 47% 47%;
+        grid-gap: 6%;
+    }
+
+    /* CONTACT PAGE SETTING */
+
+}
+
+
+
+/* ----- DESKTOP VIEW ----- */
+@media(min-width: 960px){
+    /* HOMEPAGE SETTING */
+    #page-nav ul li a{
+        margin: 0 3rem;
+        font-size: 1.2rem;
+    }
+    #page-nav ul li a:hover{
+        font-size: 150%;
+    } 
+
+    .designertext {
+        display: grid;
+        grid-template-columns: 47% 47%;
+        grid-gap: 6%;
+    }
+
+     /* WORK PAGE SETTING  */
+     #work-nav ul li {
+        display: inline-block;
+    }
+
+    #work-nav ul li a {
+        font-size: 20px;
+    }
+    #work-nav ul li a:hover {
+        font-weight: bolder;
+    }
+
+    /* Graphic */
+    .graphic1 {
+        display: grid;
+        grid-template-columns: 47% 47%;
+        grid-gap: 6%;        
+    }
+
+    /* Photography */
+    .photo1, .photo2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+
+    .photo2 :nth-child(6) {
+        grid-column: 1/span 1;
+        grid-row: 2;
+    }
+
+    /* ABOUT PAGE SETTING */
+    .sammy {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5%;
+    }
+
+    .profiletext2 {
+        display: block;
+    }
+}
+
